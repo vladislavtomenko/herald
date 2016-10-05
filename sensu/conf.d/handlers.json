@@ -1,0 +1,10 @@
+{
+  "handlers": {
+    "herald": {
+      "type": "pipe",
+      "command": "/etc/sensu/extensions/herald.rb",
+      "timeout": 10,
+      "severities": ["critical", "unknown"]
+    }
+  }
+}
